@@ -82,7 +82,7 @@ object DataFrames {
      
       val updatedSales_Df = sales_Df.select("*").
             withColumn("amount", when(!isnull(sales_Df("amount")),sales_Df("amount")).otherwise(round))
-      
+      // val updatedSaled_Df = sales_Df.na.fill(round,Array("amount"))
       updatedSales_Df.show()
       
       // Task 3 : Join all the above files on customerId and itemId.
