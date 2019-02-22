@@ -1,0 +1,8 @@
+1. Count of stocks whose price is greater than 2.5 group by InvoiceNo
+2. Details of stocks where customerID is null
+3. Replace null customerID with INT MAX
+4. Details of stocks where description is null
+5. Replace null Description with 'No description present'
+6. Months with decreasing stocks in year 2011
+7. Use map function and get data frame containing only invoiceNo,StockCode,description,date,unit price and CustomerID of stocks in year 2011
+8. Stock which is most frequently produced each month in year 2011
